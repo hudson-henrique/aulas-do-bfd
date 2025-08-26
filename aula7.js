@@ -31,3 +31,25 @@ for (let i = 0; i < numeros.length; i++) {
     console.log(numeros[i]);
   }
 }
+
+//atvd5
+const frutas = ["uva", "morango", "pera"];
+
+let i = 0;
+while (i < frutas.length) {
+  console.log(frutas[i]);
+  i++;
+}
+
+console.log("acabou");
+
+//atvd6
+for (let numero = 2; numero <= 9; numero++) {
+  let linha = "";
+
+  for (let i = 1; i <= 10; i++) {
+    linha += `${numero} x ${i} = ${numero * i}  `;
+  }
+
+  console.log(linha);
+}
